@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="game-container">
+
+        <h1 class="title">
+            <span class="blue">T</span><span class="red">i</span><span class="yellow">c</span>
+            <span class="green"> </span>
+            <span class="blue">T</span><span class="red">a</span><span class="yellow">c</span>
+            <span class="green"> </span>
+            <span class="blue">T</span><span class="red">o</span><span class="yellow">e</span>
+        </h1>
+
+        <p class="subtitle">A little game of strategy</p>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            <span id="status-text">Player O's turn</span>
+        </div>
+
+        <div class="board" id="board">
+            <button class="cell" data-index="0" aria-label="Cell 1"></button>
+            <button class="cell" data-index="1" aria-label="Cell 2"></button>
+            <button class="cell" data-index="2" aria-label="Cell 3"></button>
+
+            <button class="cell" data-index="3" aria-label="Cell 4"></button>
+            <button class="cell" data-index="4" aria-label="Cell 5"></button>
+            <button class="cell" data-index="5" aria-label="Cell 6"></button>
+
+            <button class="cell" data-index="6" aria-label="Cell 7"></button>
+            <button class="cell" data-index="7" aria-label="Cell 8"></button>
+            <button class="cell" data-index="8" aria-label="Cell 9"></button>
+        </div>
+
+        <button class="restart-btn" id="restart-btn">
+            ↻ &nbsp; Restart game
+        </button>
+
+        <p class="footer-text">Made for fun. Powered by strategy.</p>
+
+    </main>
+
+    <script src="node.js"></script>
+</body>
+</html>
